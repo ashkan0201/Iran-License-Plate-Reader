@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-image_path = "archive/train/images/499_png.rf.1a4fe5b14fbe11301c9fa2d6801fc0af.jpg"
+image_path = "/home/ashkan/Desktop/Github/Iran-License-Plate-Reader/archive/test/images/494_png.rf.435bdbc028fab196cea8a8ff0a8d5bc7.jpg"
 
 model = YOLO("runs/segment/train/weights/best.pt")
 
